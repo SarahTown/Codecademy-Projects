@@ -1,0 +1,199 @@
+
+
+body {
+    margin: 15px;
+    background-color: #F1DAC4;
+    font-family: "PT Serif", "Times New Roman", serif;
+
+}
+
+.code {
+    font-family: monospace;
+    background-color: #CCCCCC;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: ;
+    font-size: 100px;
+    color: #121420;
+}
+
+h2 {
+    font-family: ;
+    font-size: 60px;
+    color: #121420;
+}
+
+h3 {
+    font-family: ;
+    font-size: 50px;
+    color: #121420;
+}
+
+p {
+    font-family: ;
+    font-size: 30px;
+    color: #121420;
+}
+
+/* Header Section */
+
+.header {
+    margin-bottom: 150px;
+
+}
+
+.header h1 {
+    text-align: center;
+}
+
+.header h2 {
+    text-align: center;
+
+}
+
+.propertyheader {
+    background-color: #A53860;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Table Section */
+
+.startheader {
+    background-color: #4B7F52;
+    height: 80px;
+    width: 100%;
+}
+
+.start h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+/*table formatting*/
+
+.table {
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "PT serif", "Times New Roman", serif;
+    font-size: 25px;
+    color: #121420;
+
+
+}
+
+
+tr, td, table {
+    border: 4px solid;
+    border-collapse: collapse;
+}
+
+
+tr:hover {
+    background-color: #B33C86;
+}
+
+tr.headtable:hover {
+    background-color: #F1DAC4;
+}
+
+.headtable {
+    font-weight: bold;
+}
+
+
+/* Color Section */
+
+.color {
+
+}
+
+.colorheader {
+    background-color: #0AD3FF;
+    height: 70px;
+    width: 100%;
+
+}
+
+.color h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Font Family Section */
+
+.font-family {
+
+}
+
+.fontfamilyheader {
+    background-color: #AA6DA3;
+    height: 70px;
+    width: 100%;
+}
+
+.font-family h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* Letter Spacing Section */
+
+.letter-spacing {
+
+}
+
+.letterspacingheader {
+    background-color: #7D82B8;
+    height: 70px;
+    width: 100%;
+}
+
+.letter-spacing h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Opacity Section */
+
+.opacity {
+
+}
+
+.opacityheader {
+    background-color: #476C9B;
+    height: 70px;
+    width: 100%;
+}
+
+.opacity h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* Footer Section */
+
+.footer {
+
+}
+
+.footerheader {
+    background-color: #984447;
+    height: 70px;
+    width: 100%;
+}
+
+.footerheader h3 {
+    text-align: center;
+    font-weight: bold;
+}
