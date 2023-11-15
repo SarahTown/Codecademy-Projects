@@ -1,0 +1,82 @@
+h1 {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+
+}
+
+h2 {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    position: left;
+
+}
+
+h3 {
+    font-family: Helvetica;
+    font-size: 24px;
+    color: black;
+}
+
+p{
+    font-family: Helvetica;
+    color: black;
+    font-size: 20px;
+
+}
+
+.brush {
+    background-color: mediumspringgreen;
+
+}
+
+.frame {
+    background-color: lightcoral;
+
+}
+
+.paint {
+    background-color: skyblue;
+
+}
+
+.blue {
+    color: blue;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+#topimage {
+    height: 50px;
+    width: 100%;
+    z-index: 1;
+    margin-top: 10px;
+    transform: scale(-1, 8)
+
+}
+
+.topcontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.titlecontainer {
+    position: absolute;
+    top: 1%;
+    left: 4%;
+
+}
+
+.body {
+    position: absolute;
+    top: 25%;
+}
+
+.imagecontainer {
+    position: relative;
+    margin-top: 5px;
+}
