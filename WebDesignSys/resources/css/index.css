@@ -1,0 +1,461 @@
+
+/*Colors*/
+
+.colors {
+    border: 3px solid black;
+}
+
+.colors p {
+    font-size: 23px;
+    margin-top: 2px;
+}
+
+.colors h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.colors h2 {
+    margin-left: 10px;
+    background-color: #FFE4AE;
+    margin-right: 10px;
+    font-size: 30px;
+    color: black;
+}
+
+.colors h3 {
+    font-size: 23px;
+    margin-top: 12px;
+}
+
+.bcolor1, .bcolor2, .bcolor3, .bcolor4, .bcolor5 {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin-left: 50px;
+    border: 3px solid black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.wcolor1, .wcolor2, .wcolor3, .wcolor4, .wcolor5 {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin-left: 50px;
+    border: 3px solid black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ccolor1, .ccolor2, .ccolor3, .ccolor4, .ccolor5 {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin-left: 50px;
+    border: 3px solid black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pcolor1, .pcolor2, .pcolor3, .pcolor4, .pcolor5 {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin-left: 50px;
+    border: 3px solid black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/*Basic Colors*/
+
+.bcolor1 {
+    background-color: #100B00;
+    color: white;
+}
+
+.bcolor2 {
+    background-color: #FAFAFF;
+}
+
+.bcolor3 {
+    background-color: #F3E9D2;
+}
+
+.bcolor4 {
+    background-color: #8F754F;
+}
+
+.bcolor5 {
+    background-color: #AA4465;
+}
+
+/*Warm Colors*/
+
+.wcolor1 {
+    background-color: #010001;
+    color: white;
+}
+
+.wcolor2 {
+    background-color: #2B0504;
+    color: white;
+}
+
+.wcolor3 {
+    background-color: #874000;
+}
+
+.wcolor4 {
+    background-color: #BC5F04;
+}
+
+.wcolor5 {
+    background-color: #F1E8B8;
+}
+
+/*Cool Colors*/
+
+.ccolor1 {
+    background-color: #D4AFB9;
+}
+
+.ccolor2 {
+    background-color: #D1CFE2;
+}
+
+.ccolor3 {
+    background-color: #9CADCE;
+}
+
+.ccolor4 {
+    background-color: #7EC4CF;
+}
+
+.ccolor5 {
+    background-color: #52B2CF;
+}
+
+/*Bright Colors*/
+
+.pcolor1 {
+    background-color: #5FAD56;
+}
+
+.pcolor2 {
+    background-color: #F2C14E;
+}
+
+.pcolor3 {
+    background-color: #F78154;
+}
+
+.pcolor4 {
+    background-color: #4D9078;
+}
+
+.pcolor5 {
+    background-color: #B4436C;
+}
+
+/*Fonts*/
+
+.fonts {
+    border: 3px solid black;
+    margin-top: 10px;
+}
+
+.fonts h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.fonts h2 {
+    margin-left: 10px;
+    background-color: #FFE4AE;
+    margin-right: 10px;
+    font-size: 30px;
+    color: black;
+}
+
+/*Roboto Font*/
+
+.font1 .regular {
+    font-family: "Roboto", serif;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.font1 .bold {
+    font-family: "Robota", serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.font1 .italic {
+    font-family: "Roboto", serif;
+    font-style: italic;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.font1 .underlined {
+    font-family: "Roboto", serif;
+    text-decoration: underline;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+/*Playfair Font*/
+
+.font2 .regular {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.font2 .bold {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.font2 .italic {
+    font-family: "Playfair Display", sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.font2 .underlined {
+    font-family: "Playfair Display", sans-serif;
+    text-decoration: underline;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+/*Josefin Sans Font*/
+
+.font3 .regular {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.font3 .bold {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.font3 .italic {
+    font-family: "Josefin Sans", sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.font3 .underlined {
+    font-family: "Josefin Sans", sans-serif;
+    text-decoration: underline;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+/*Montserrat Alternates*/
+
+.font4 .regular {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.font4 .bold {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.font4 .italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.font4 .underlined {
+    font-family: "Montserrat Alternates", sans-serif;
+    text-decoration: underline;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+/*Text Styles*/
+
+.textstyles {
+    border: 3px solid black;
+    margin-top: 10px;
+}
+
+.textstyles h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.textstyles .h1 {
+    font-size: 40px;
+    margin-left: 15px;
+}
+
+.textstyles .h2 {
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.textstyles .h3 {
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.textstyles .para {
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+/*Shapes*/
+
+.shapes {
+    border: 3px solid black;
+    margin-top: 10px;
+}
+
+.shapes h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.shapes h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 75px;
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    background-color: #85C7F2;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.oval {
+    height: 200px;
+    width: 250px;
+    background-color: #FFE4FA;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px;
+    border: 1px solid black;
+
+}
+
+.rectangle {
+    height: 200px;
+    width: 250px;
+    background-color: #ABC798;
+    display: inline-block;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    background-color: #FFC579;
+    display: inline-block;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.roundedsquare {
+    height: 200px;
+    width: 200px;
+    background-color: #FFD3DF;
+    border-radius: 10%;
+    display: inline-block;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+/*Buttons*/
+
+.buttons {
+    border: 3px solid black;
+    margin-top: 10px;
+}
+
+.buttons h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+/*Flat*/
+
+.buttons .flat {
+    border: 1px solid black;
+    width: 150px;
+    height: 75px;
+    text-align: center;
+    margin-left: 45%;
+    background-color: gray;
+}
+
+.buttons h2 {
+    margin-top: 1px;
+    font-size: 30px;
+}
+
+.buttons .flat:active {
+    background-color: grey;
+}
+
+.buttons .flat:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+/*Skeuomorphic Buttons*/
+
+.buttons .sk {
+    text-align: center;
+    height: 75px;
+    width: 200px;
+    border: 1px solid black;
+    margin-left: 43%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 5px;
+
+}
+
+.buttons .sk:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+.buttons .sk:active {
+    box-shadow: 0px 0px;
+    color: black;
+    margin-top: 20px;
+}
