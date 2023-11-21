@@ -1,0 +1,235 @@
+body {
+    background-color: #F2E8CF;
+}
+
+/*Nav Menu*/
+
+.menu {
+    font-size: 1.2rem;
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 2.5rem;
+    padding-right: 1.5rem;
+    text-decoration: underline;
+    padding-bottom: 0.75rem;
+    color: #07281A;
+    font-family: 'Josefin Sans';
+}
+
+.menu a {
+    margin-right: 0.75rem;
+    color: #07281A;
+}
+
+.menu a:hover {
+    color: black;
+
+}
+
+.menu a:active {
+    color: black;
+    cursor: pointer;
+}
+
+/*Header*/
+.header img {
+    width: 100%;
+    height: 25rem;
+    z-index: 0;
+}
+
+.header .title {
+    background-color: #5DA271;
+    opacity: 0.85;
+    height: 8rem;
+    width: 99%;
+    z-index: 1;
+    position: absolute;
+    margin-top: -17%;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #07281A;
+    opacity: 1;
+    font-family: 'Josefin Sans';
+    margin-bottom: .5rem;
+}
+
+.header h2 {
+    font-size: 1rem;
+    text-align: center;
+    color: #07281A;
+    opacity: 1;
+    font-family: 'Josefin Sans';
+}
+
+/*Our Mission*/
+
+.mission h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.mission p {
+    font-size: 1.2rem;
+}
+
+.mission h2, p {
+    font-family: 'Josefin Sans';
+    color: #07281A;
+}
+
+
+/*Our Programs*/
+
+.programtitle {
+    font-family: 'Josefin Sans';
+    color: #07281A;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #FFDC84;
+}
+
+.infant img {
+    height: 20rem;
+    width: 60%;
+    margin: auto;
+    display: block;
+    margin-top: 0.7rem;
+    border-radius: 10%;
+}
+
+.toddler img {
+    height: 20rem;
+    width: 40%;
+    margin: auto;
+    display: block;
+    margin-top: 0.7rem;
+    border-radius: 10%;
+}
+
+.preschool img {
+    height: 20rem;
+    width: 40%;
+    margin: auto;
+    display: block;
+    margin-top: 0.9rem;
+    border-radius: 10%;
+}
+
+.prek img {
+    height: 20rem;
+    width: 40%;
+    margin: auto;
+    display: block;
+    margin-top: 0.7rem;
+    border-radius: 10%;
+}
+
+.programs h2, h3, p {
+    font-family: 'Josefin Sans';
+    color: #07281A;
+    text-align: center;
+}
+
+.programs {
+    display: inline-grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    width: 99%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    margin-left: 1.5rem;
+    margin-right: 0.5rem;
+    
+}
+
+.infant, .toddler, .preschool, .prek {
+    background-color: #E8DEC4;
+    width: 38rem;
+    height: 30rem;
+    margin-bottom: 2rem;
+    border-radius: 10%;
+}
+
+
+/*Our Staff*/
+
+.stafftitle {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #07281A;
+    font-family: 'Josefin Sans';
+    background-color: #FFDC84;
+}
+
+.staff {
+    display: inline-grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    width: 90%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    margin-left: 10rem;
+    margin-left: 0.5rem;
+}
+
+.teacher1, .teacher2, .teacher3, .teacher4 {
+    background-color: #E8DEC4;
+    width: 30rem;
+    height: 30rem;
+    margin-bottom: 1rem;
+    border-radius: 10%;
+    margin-left: 7rem;
+}
+
+.staff img {
+    height: 20rem;
+    width: 50%;
+    display: block;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.staff h2, h3, h4, p {
+    font-family: 'Josefin Sans';
+    color: #07281A;
+    text-align: center;
+}
+
+
+
+
+/*Contact Us*/
+
+.footer h3, p {
+    font-family: 'Josefin Sans';
+    color: #07281A;
+}
+
+.footer h3 {
+    padding-top: 3rem;
+}
+
+.footer {
+    background-color: #E8DEC4;
+    height: 10rem;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .programs {
+        flex-flow: column;
+        padding: 0;
+    }
+    .staff {
+        flex-flow: column;
+        padding: 0;
+    }
+}
