@@ -1,0 +1,237 @@
+body {
+    background-color: #020C13;
+
+}
+
+/*Nav Menu*/
+
+.menu {
+    font-size: 1.2rem;
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 2.5rem;
+    padding-right: 1.5rem;
+    text-decoration: underline;
+    padding-bottom: 0.75rem;
+    color: #D6EFFF;
+    font-family: 'Josefin Sans';
+}
+
+.menu a {
+    margin-right: 0.75rem;
+    color: #D6EFFF;
+}
+
+.menu a:hover {
+    color: #FFDC5E;
+
+}
+
+.menu a:active {
+    color: #D6EFFF;
+    cursor: pointer;
+}
+/*Header*/
+.header img {
+    width: 100%;
+    height: 25rem;
+    z-index: 0;
+}
+
+.header .title {
+    background-color: #FFDC5E;
+    opacity: 0.85;
+    height: 8rem;
+    width: 99%;
+    z-index: 1;
+    position: absolute;
+    margin-top: -17%;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #062840;
+    opacity: 1;
+    font-family: 'Josefin Sans';
+    margin-bottom: .5rem;
+}
+
+.header h2 {
+    font-size: 1rem;
+    text-align: center;
+    color: #062840;
+    opacity: 1;
+    font-family: 'Josefin Sans';
+}
+
+/*About Us*/
+
+.about {
+    color: #D6EFFF;
+    font-family: 'Josefin Sans';
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2rem;
+}
+
+
+/*Charity Work*/
+
+.charitywork {
+    display: inline-grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    width: 99%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+    gap: 0.1rem;
+    margin-left: 5rem;
+    margin-right: 0.5rem;
+    color: #D6EFFF;
+    text-align: center;
+    font-family: 'Josefin Sans';
+}
+
+.charitywork .socks {
+    display: block;
+    height: 30rem;
+    width: 30rem;
+}
+
+.charitywork .blankets {
+    display: block;
+    height: 30rem;
+    width: 30rem;
+}
+
+.charitywork .stuffies {
+    display: block;
+    height: 30rem;
+    width: 30rem;
+}
+
+.charitywork img {
+    height: 20rem;
+    width: 20rem;
+}
+
+/*Team*/
+
+.teamtitle {
+    color: #D6EFFF;
+    font-family: 'Josefin Sans';
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.team {
+    display: inline-grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    width: 99%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    gap: 0.1rem;
+    margin-left: 5rem;
+    margin-right: 0.5rem;
+    color: #D6EFFF;
+    text-align: center;
+    font-family: 'Josefin Sans';
+}
+
+.president {
+    display: block;
+    height: 30rem;
+    width: 30rem;
+    padding-bottom: 3rem;
+}
+
+.vpresident {
+    display: block;
+    height: 30rem;
+    width: 30rem;
+    padding-bottom: 5rem;
+}
+
+.treasurer {
+    display: block;
+    height: 30rem;
+    width: 30rem;
+    padding-bottom: 3rem;
+}
+
+.secretary {
+    display: block;
+    height: 35rem;
+    width: 30rem;
+    padding-bottom: 3rem;
+}
+
+.team img {
+    height: 25rem;
+    width: 20rem;
+}
+
+
+/*FAQs*/
+
+.faqs h2 {
+    color: #D6EFFF;
+    font-family: 'Josefin Sans';
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.questions {
+    color: #D6EFFF;
+    font-family: 'Josefin Sans';
+    text-align: left;
+    width: 60%;
+    height: 30rem;
+    margin-left: 10%;
+    line-height: 1.5rem;
+}
+
+.questions h3 {
+    font-size: 2rem;
+}
+
+.questions h4 {
+    font-size: 1.5rem;
+}
+
+/*Footer*/
+
+.footer h3, p {
+    font-family: 'Josefin Sans';
+    color: #07281A;
+    padding-left: 2rem;
+}
+
+.footer h3 {
+    padding-top: 3rem;
+}
+
+.footer {
+    background-color: #E8DEC4;
+    height: 10rem;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .charitywork {
+        flex-flow: column;
+        padding: 0;
+    }
+    .team {
+        flex-flow: column;
+        padding: 0;
+    }
+}
